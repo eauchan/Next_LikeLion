@@ -15,4 +15,5 @@ MBTI는 INFJ이며
 좋아합니다!
 
 앞으로 1년 동안 잘 부탁드립니다! :D
-[사본 -IMG_6981](C:\Users\Uswe1\Desktop\사진)
+
+![사본 -IMG_6981](https://user-images.githubusercontent.com/91827518/158009749-1f79a575-d424-400c-9f71-dfb11d41c65d.jpg)
