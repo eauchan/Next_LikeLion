@@ -18,3 +18,5 @@ MBTI는 INFJ이며
 
 ![크기변환 사본 -IMG_6981](https://user-images.githubusercontent.com/91827518/158009823-710f87ac-702e-456c-b862-c512f4f29884.jpg)
 
+
+
