@@ -1,0 +1,147 @@
+ul {
+    padding: 0;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left:0;
+    right:0;
+}
+#menu{
+    width: 100%;
+    position: fixed;
+    background: fixed;
+    background-color: #ffffff6b;
+}
+li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+a {
+    color:black
+}
+#profileimg {
+    box-sizing: border-box;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+}
+
+#protext {
+    text-align: center;
+    font-family: "Fredoka";
+    font-size:30px;
+    font-weight:300;
+    color: white;
+}
+
+#proimg {
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px #796d77;
+}
+html,body,head {height:100%; margin:0; padding:0;}
+
+#Home {
+    background-color: #9a8c98;
+    margin:0px;
+}
+#Me0 {
+    font-family: 'Fredoka';
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+
+
+#Me1 {
+    font-family: 'Jua';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+#Me2 {
+    font-family: 'Jua';
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+
+#AboutMe{
+    background-color: #b56576;
+    margin:0px;
+    
+}
+
+
+#dreamtxt {
+    font-family: 'Fredoka';
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+#Dream {
+    background-color: #9dbebb;
+    text-align: center;
+    font-family: "Jua";
+    font-size:30px;
+    font-weight:300;
+    color: white;
+
+}
+
+#dreamimg {
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px #7e9796;
+}
+#Like {
+    background-color: #edbfb7;
+    text-align: center;
+}
+#Like p {
+    display: inline-block;
+    width: 360px;
+}
+
+.likeimg {
+    margin:0px 30px;
+    border-radius: 30%;
+    box-shadow: 5px 10px 8px #bd9891;
+
+}
+
+#liketitle {
+    font-family: 'Fredoka';
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+#liketxt {
+    font-family: 'Jua';
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: -5px;
+}
+
+#end {
+    font-family: 'Jua';
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding: -5px;
+}
