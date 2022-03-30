@@ -1,0 +1,47 @@
+.box_container {
+}
+
+.box1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:200px;
+    left: 200px;
+    background-color: rgb(235, 115, 153);
+    border-radius: 10px;
+    z-index:5;
+}
+
+.box2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 150px;
+    left:150px;
+    background-color: rgb(235, 235, 115);
+    border-radius: 10px;
+    z-index:4;
+
+}
+
+.box3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(119, 235, 115);
+    border-radius: 10px;
+    z-index:3;
+}
+
+.box4 {
+    position: absolute;
+    top:50px;
+    left:50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(115, 187, 235);
+    border-radius: 10px;
+    z-index:2;
+}
