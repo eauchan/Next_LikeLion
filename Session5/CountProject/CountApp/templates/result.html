@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'result.css' %}" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="Box">
+        <div class="제목">
+            <span>글자 / 단어 수 세기</span>
+        </div>
+        <form action="{% url 'result' %}" method="post">{% csrf_token %}
+            <br />
+            <textarea name="text" cols="60" rows="22" readonly>{{input}}</textarea>
+            <br />
+            <div class="bottom">
+                <div class="line">
+                    <span class="first">공백 포함 글자 수</span>
+                    <span class="second">{{total_len}}</span>
+                    <span class="third">자</span>
+                    <span class="fourth">{{total_len1}}</span>
+                    <span class="third">byte</span>
+                </div>
+                <div class="line">
+                    <span class="first">공백 제외 글자 수</span>
+                    <span class="second">{{no_blank_len}}</span>
+                    <span class="third">자</span>
+                    <span class="fourth">{{no_blank_len1}}</span>
+                    <span class="third">byte</span>
+                </div>
+                <div class="line">
+                    <span class="first">단어 수</span>
+                    <span class="second">{{word}}</span>
+                    <span class="third">개</span>
+                </div>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
