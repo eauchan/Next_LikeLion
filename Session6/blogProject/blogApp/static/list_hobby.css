@@ -1,0 +1,194 @@
+head, body, html {
+    width:100%;
+    height:100%;
+    margin:0;
+    background-color:rgb(250, 250, 253);
+}
+
+.Home1 {
+    text-align: center;
+    font-size:30px;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style:italic;
+    padding-top:30px;
+    padding-bottom: 0px;
+    margin-top:0px;
+}
+
+.Home2 {
+    text-align: center;
+    font-family: "BIZ UDPMincho";
+    font-weight: 1000;
+    font-size: 90px;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    Top:-50px;
+}
+
+.navi {
+    text-align: center;
+    position: relative;
+    Top:-60px;
+}
+
+.navi2 {
+    display: flex;
+    justify-content: center;
+    border-top:0.01em solid black;
+    border-bottom:0.01em solid black;
+    position: relative;
+    Top:-10px;
+}
+
+.navi1 {
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    width:160px;
+    height:50px;
+    padding: 0px 40px;
+    font-size:20px;
+    font-family: "Roboto";
+    border-left:0.01em solid black;
+}
+
+.navi3 {
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    width:160px;
+    height:50px;
+    padding: 0px 40px;
+    font-family: "Roboto";
+    font-size:20px;
+    border-left:0.01em solid black;
+    border-right:0.01em solid black;
+}
+
+
+
+a:link {
+    color : black;
+    text-decoration: none;
+  }
+  a:visited {
+    color : black;
+    text-decoration: none;
+  }
+  a:hover {
+    color : rebeccapurple;
+    text-decoration: underline;
+  }
+  a:active {
+    color : black;
+    text-decoration: none;
+  }
+
+.content_title {
+    position: relative;
+    left:20%;
+    font-family:"Roboto";
+    font-size:30px;
+    font-weight: 200;
+    letter-spacing:5px;
+    margin-bottom: 50px;
+}
+
+
+.content1 {
+    width: 70%;
+    height: 350px;
+    border:0.01em solid black;
+    position: relative;
+    left:15%;
+    margin-bottom:50px;
+}
+
+.article_title {
+    font-family: "Nanum Gothic";
+    font-size: 50px;
+    font-weight: 800;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    position: relative;
+    left:5%;
+    Top:2%;
+}
+
+.article_time {
+    font-family: "Nanum Gothic";
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+    position: relative;
+    color:rgb(57, 56, 56);
+    left:6%;
+    Top:3%;
+    
+}
+
+.article_content1 {
+    font-family: "Nanum Gothic";
+    font-size: 25px;
+    font-weight: 300;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color:rgb(57, 56, 56);
+    position: relative;
+    left:1%;
+
+}
+
+.article_content{
+    position: relative;
+    left:5%;
+    Top:7%;
+    padding-Top:2%;
+    width:90%;
+    height:40%;
+    border-Top: 0.01em solid rgb(110, 108, 108);
+    border-bottom: 0.01em solid rgb(110, 108, 108);
+
+}
+
+.content2 {
+    margin-bottom: 50px;
+}
+
+.write {
+    position: absolute;
+    font-family: "Roboto";
+    font-size:30px;
+    font-weight: 200;
+    letter-spacing:5px;
+    left: 70%;
+}
+
+.article_category {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+    font-style: oblique;
+    position: relative;
+    color:rgb(57, 56, 56);
+    left:6%;
+    Top:12%;
+    
+}
+
+.bottom {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+    font-style: oblique;
+    position: relative;
+    color:rgb(57, 56, 56);
+    text-align: center;
+    background-color: rgb(198, 197, 197);
+    height:8%;
+    line-height: 250%;
+}

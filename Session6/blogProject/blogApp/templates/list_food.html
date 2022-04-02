@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'list_food.css' %}?after " />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <p class="Home1">Good Morning, Good Afternoon, Good Evening!</p>
+    <p class="Home2">Lee Eau Chan Blog</p>
+    <div class="navi">
+        <div class="navi2">
+            <div class="navi1">
+                <a href="{% url 'list' %}" style="text-decoration:none">Home
+            </div>
+            <div class="navi1">
+                <a href="{% url 'list_hobby' %}" style="text-decoration:none">Hobby
+            </div>
+            <div class="navi1">
+                <a href="{% url 'list_food' %}" style="text-decoration:none">Food
+            </div>
+            <div class="navi3">
+                <a href="{% url 'list_programming' %}" style="text-decoration:none">Programming</a>
+            </div>
+        </div>
+    </div>    
+    <div class="content">
+        <div class="content2">
+            <span class="content_title">FOOD ({{ count }})</span>
+            <a class='write' href="{% url 'new' %}" style="text-decoration:none">WRITE</a>
+        </div>
+        {% for article in articles %}
+        <div class="content1">
+            <p class="article_time">{{ article.updated_at }}</p>
+            <a class= "article_title" href="{% url 'detail' article.id %}" style="text-decoration:none">{{ article.title }}</a>
+            <div class = "article_content">
+                <div class = "article_content1">
+                    {{ article.content }}
+                </div>
+            </div>
+            <div class = "article_category">
+                {{ article.category }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class = 'bottom'>
+        <p>srja432130@gmail.com</p>
+    </div>
+</body>
+</html>
