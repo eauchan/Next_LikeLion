@@ -1,0 +1,17 @@
+h1,
+h2 {
+    color: pink;
+}
+
+.part_1 p {
+    color: violet;
+}
+
+.part_2>p {
+    color: violet !important;  
+}
+
+.part_2 p {
+    color: blue; 
+}
+
