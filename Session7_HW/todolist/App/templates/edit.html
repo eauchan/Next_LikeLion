@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'edit.css' %}?after " />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <p class="Home1">Good Morning, Good Afternoon, Good Evening!</p>
+    <p class="Home2">Lee Eau Chan Blog</p>
+    <div class="navi">
+    </div>    
+    <div class="content">
+        <div class="content2">
+            <span class="content_title">EDIT</span>
+            <a class='Return' href="{% url 'home' %}" style="text-decoration:none">Return to Home</a>
+        </div>
+        <div class="content1">
+        <form action="/new/" method="post">
+            {% csrf_token %}
+            <div class="article_title">
+                <p>TITLE</p>
+            </div>
+            <input class='type1' name="title" type="text" value="{{	post.title }}">
+            <br>          
+            <label class='type5' for="content">Deadline</label>
+            <div class="type6">
+                <input type="date" name="deadline" id="deadline"></input>
+            </div>
+            <div>
+                <div class="article_content">CONTENT</div>
+                <textarea class="type3" name="content" cols="30" rows="15">{{ post.content }}</textarea>
+            </div>
+            <button class='type4' type="submit">EDIT</button>
+        </form>
+    </div>
+    </div>
+    <div class = 'bottom'>
+        <p>srja432130@gmail.com</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}?after " />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <p class="Home1">Good Morning, Good Afternoon, Good Evening!</p>
+    <p class="Home2">Lee Eau Chan Blog</p>
+    <div class="navi">
+    </div>  
+    <div class="content">
+        <p class="article_time">Deadline: {{ post.deadline }}</p>
+        <a class= "article_title" >{{ post.title }}</a>
+        <div class = "article_content">
+            <div class = "article_content1">
+                    {{ post.content }}
+            </div>
+        </div>
+    <a class="Edit" href="{%	url 'edit'	post.pk %}" style="text-decoration:none">EDIT</a>  
+    <a class="Remove" href="{%	url 'delete' post.pk %}" style="text-decoration:none">REMOVE</a>
+    </div>
+    <a class="Return" href="{% url 'home' %}" style="text-decoration:none">RETURN TO HOME</a>
+    <div class = 'bottom'>
+        <p>srja432130@gmail.com</p>
+    </div>
+</body>
+</html>

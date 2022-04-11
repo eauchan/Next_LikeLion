@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}?after " />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <p class="Home1">Good Morning, Good Afternoon, Good Evening!</p>
+    <p class="Home2">Lee Eau Chan Blog</p>
+    <div class="navi">
+    </div>    
+    <div class="content">
+        <div class="content2">
+            <span class="content_title">To Do List</span>
+            <a class='write' href="{% url 'new' %}" style="text-decoration:none">Add List</a>
+        </div>
+        {% for post in post %}
+        <div class="content1">
+            <p class="article_time">Deadline: {{ post.deadline }}</p>
+            <a class= "article_title" href="{% url 'detail' post.pk %}" style="text-decoration:none">{{ post.title }}</a>
+            <div class = "article_content">
+                <div class = "article_content1">
+                    {{ post.content }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class = 'bottom'>
+        <p>srja432130@gmail.com</p>
+    </div>
+</body>
+</html>
