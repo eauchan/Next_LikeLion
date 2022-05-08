@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}?after " />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    {% for subject in Major %}
+    <div id = 'title1'>
+        <p id = 'text1'>{{ subject.major }}</p>
+    </div>
+    <ol>
+        <div id='box2'>
+            <li class="list2">
+                <div class="box3">
+                    <div class="sub_info">
+                        <span class="bold">{{ subject.subject_name }}</span>
+                        <span> | {{ subject.major }} |</span>
+                        <span>{{ subject.prof_name }} </span>
+                    </div>
+                    <div class="buttons2">
+                        <a href="{% url 'editSubject' subject.pk %}" class="button1">수정</a>
+                        <a href="{% url 'deleteSubject' subject.pk %}" class="button1">삭제</a>
+                    </div>
+                </div>
+                <div class="memos">{{ subject.memo }}</div>
+            </li>
+        </div>
+    </ol>
+    {% endfor %}
+</body>
+</html>

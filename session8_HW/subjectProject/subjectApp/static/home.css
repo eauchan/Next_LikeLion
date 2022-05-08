@@ -1,0 +1,158 @@
+body{
+    margin: 50px;
+}
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#title1{
+    display: flex;
+    width:400px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+    letter-spacing: 1px;
+}
+
+#title2{
+    display: flex;
+    width:400px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+    letter-spacing: 1px;
+}
+
+#form {
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 44px;
+    letter-spacing: 1px;  
+    color:black
+}
+
+.button1{
+    background:rgb(74, 142, 108);
+    border-radius: 15px;
+    text-decoration:none;
+    color:white;
+    font-size: 16px;
+    padding:3px 10px;
+    width:70px;
+    height:35px;
+    margin-left:15px;
+}
+
+.button2{
+    color:white;
+    text-decoration:none;
+    background:rgb(152, 90, 210);
+    border-radius: 20px;
+    width:150px;
+    height:50px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#box1{
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 44px;
+width:600px;
+height: 70px;
+margin:15px 0px;
+border-radius: 10px;
+border: 1px solid black
+}
+
+#box2{
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 44px;
+width:600px;
+height: 100px;
+margin:15px 0px;
+border-radius: 10px;
+border: 1px solid black
+}
+
+.list2{
+    top:12px;
+    display:flex;
+    width:600px;
+    flex-direction: column
+}
+.list1{
+    top:12px;
+    display:flex;
+    width:600px;
+}
+#text1 {
+    color:white;
+    margin:0;
+    width:200px;
+    vertical-align: middle;
+    height:50px;
+    border-radius: 20px;
+    background-color: rgb(219, 65, 65);
+    text-align: center;
+}   
+
+.majorname{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    width:100px;
+}
+
+.buttons1{
+ margin-left: 310px;   
+}
+
+.sub_info{
+    width:350px;
+    margin-left: 20px;
+}
+
+.buttons2{
+    margin-left:60px;
+    width:150px;
+    margin-right:20px;
+}
+
+.box3{
+    display: flex;
+    height:25px;
+}
+
+.memos{
+    display: flex;
+    width:600px;
+    height:25px;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-bottom: 10px;    
+}
