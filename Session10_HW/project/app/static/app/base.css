@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+}
+.page-wrapper{
+    display: flex;
+    width:100em;
+    justify-content: center;
+}
+.page-header{
+    width: 1600px;
+    height: 200px;
+    font-size: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    margin: 0px;
+}
+  
+.content-container {
+    border: solid;
+    width: 1600px;
+    margin-top: 10px;
+    padding: 0px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+  }
+  .btn:hover {
+    background-color: gray;
+  }

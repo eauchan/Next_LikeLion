@@ -1,0 +1,50 @@
+
+.post-title {
+  width:800px;
+  font-size: 30px;
+  position: absolute;
+  margin-top:5px;
+  left:230px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.post-title:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.post-box-title {
+  width: 1600px;
+  display:flex;
+}
+
+.post-box {
+  display:flex;
+  width:1600px;
+  height:50px;
+  margin:5px 0px;
+}
+
+.title {
+  font-size: 30px;
+  display: flex;
+  margin-top:5px;
+  margin-left:600px;
+}
+
+.view{
+  font-size: 30px;
+  display: flex;
+  margin-top:5px;
+  margin-left:800px;
+}
+
+.post-view{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width:150px;
+  font-size: 30px;
+  position: absolute;
+  margin-top:5px;
+  text-align: center;
+  left:1430px;
+}
