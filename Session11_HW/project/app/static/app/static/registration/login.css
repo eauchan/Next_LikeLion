@@ -1,0 +1,18 @@
+input{
+    width: 25%!important;
+    height: 50px;
+    position:relative;
+    left:37.5%;
+    margin-top:2%;
+    
+    
+}
+
+.button{
+    width: 15%;
+    height: 50px;
+    position:relative;
+    left:42.5%;
+    margin-top:2%;
+    margin-bottom:1%;
+}

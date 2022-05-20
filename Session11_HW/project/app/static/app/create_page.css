@@ -1,0 +1,52 @@
+.title {
+  width:1600px;
+  margin: 10px 0px;
+}
+
+.title-text{
+  font-size: 30px;
+  position: absolute;
+  left: 600px;
+}
+.title-input{
+  position: absolute;
+  font-size: 20px;
+  left: 670px;
+  width:300px;
+}
+
+.content-text{
+  font-size: 30px;
+  position: absolute;
+  left: 750px;
+  margin-top: 60px;
+}
+
+.content-input{
+  font-size: 20px;
+  width: 1000px;
+  height:500px;
+  position: relative;
+  left:300px;
+  margin-top: 110px;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  position: relative;
+  left:730px;
+  font-size: 30px;
+  font-weight: 500;
+  margin:10px 0px;
+}

@@ -1,0 +1,72 @@
+.btnss{
+    display: inline;
+    float:left;
+    margin:10px 0px;
+}
+
+.btns{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.title{
+    position: relative;
+    left:650px;
+    font-size: 30px;
+    margin:15px 0px;
+}
+.view{
+    position: relative;
+    left:710px;
+    font-size: 20px;
+}
+
+.content{
+    position: relative;
+    left:690px;
+    font-size: 20px;
+}
+
+.comment-input{
+    position: relative;
+    left:675px;
+    margin-bottom: 15px;
+}
+
+.button{
+    position: relative;
+    left:675px;
+}
+
+.comment{
+    font-size: 20px;
+    position: relative;
+    left:720px;
+    margin-bottom: 15px;
+}
+
+.comment-delete{
+    position: relative;
+    left:720px;
+    font-size: 20px;
+    text-decoration: none;
+    color:black;    
+}
+
+.comment-delete:hover{
+    background-color: white;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 15px;
+}
